@@ -1,0 +1,104 @@
+Preset Name,presetdescription,mode,kv,nominalmaperframe,nominalmsperframe,kvcollimator,kvfilter,startangle,startacqangle,stopacqangle,gantryspeed,direction,frames,defaultreconstructionpreset,protocolpreset,reconstructinline,registration,projectionimagedimensionu,projectionimagedimensionv
+BREAST S20 LEFT,Breast left scan with reduced mAs to improve skin contour definition,Clinical,120,16,16,S20,F0,-20,-20,180,360,CW,183,S20 - Med_Res,Breast,Yes,Yes,512,512
+BREAST S20 LEFT CC,Breast left scan with reduced mAs to improve skin contour definition CC,Clinical,120,16,16,S20,F0,180,180,-20,360,CC,183,S20 - Med_Res,Breast,Yes,Yes,512,512
+BREAST S20 RIGHT,Breast right scan with reduced mAs to improve skin contour definition,Clinical,120,16,16,S20,F0,-180,-180,20,360,CW,183,S20 - Med_Res,Breast,Yes,Yes,512,512
+BREAST S20 RIGHT CC,Breast right scan with reduced mAs to improve skin contour definition CC,Clinical,120,16,16,S20,F0,20,20,-180,360,CC,183,S20 - Med_Res,Breast,Yes,Yes,512,512
+CHEST M20,Chest Large Diameter with Bowtie filter F1,Clinical,120,20,20,M20,F1,-180,-180,180,360,CW,330,M20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST M20 CC,Chest Large Diameter with Bowtie filter F1 Counter Clockwise,Clinical,120,20,20,M20,F1,180,180,-180,360,CC,330,M20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST M20 SLOW,Chest Large Diameter with Bowtie filter F1 SLOW,Clinical,120,20,20,M20,F1,-180,-180,180,180,CW,660,M20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST M20 CC SLOW,Chest Large Diameter with Bowtie filter F1 CC SLOW,Clinical,120,20,20,M20,F1,180,180,-180,180,CC,660,M20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST S20 LEFT,Chest with no filter F0,Clinical,120,20,20,S20,F0,-20,-20,180,360,CW,183,S20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST S20 LEFT CC,Chest with no filter F0,Clinical,120,20,20,S20,F0,180,180,-20,360,CC,183,S20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST S20 RIGHT,Chest with no filter F0 Counter Clockwise,Clinical,120,20,20,S20,F0,-180,-180,20,360,CW,183,S20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST S20 RIGHT CC,Chest with no filter F0 Counter Clockwise,Clinical,120,20,20,S20,F0,20,20,-180,360,CC,183,S20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST S20 SLOW,Chest with no filter F0 SLOW,Clinical,120,20,20,S20,F0,-20,-20,180,180,CW,366,S20 - Med_Res,Chest,Yes,Yes,512,512
+CHEST S20 SLOW CC,Chest with no filter F0 CC SLOW,Clinical,120,20,20,S20,F0,20,20,-180,180,CC,366,S20 - Med_Res,Chest,Yes,Yes,512,512
+EXTREMITY S20,Extremity small diameter acquisition,Clinical,100,10,10,S20,F0,-180,-180,20,360,CW,183,S20 - Med_Res,Extremity,Yes,Yes,512,512
+EXTREMITY S20 CC,Extremity small diameter acquisition CC,Clinical,100,10,10,S20,F0,180,180,-20,360,CC,183,S20 - Med_Res,Extremity,Yes,Yes,512,512
+EXTREMITY S20 RT HFS,Extremity small diameter acquisition,Clinical,100,10,10,S20,F0,-180,-180,20,360,CW,183,S20 - Med_Res,Extremity,Yes,Yes,512,512
+EXTREMITY S20 RT CC HFS,Extremity small diameter acquisition CC,Clinical,100,10,10,S20,F0,20,20,-180,360,CC,183,S20 - Med_Res,Extremity,Yes,Yes,512,512
+EXTREMITY S20 LT HFS,Extremity small diameter acquisition,Clinical,100,10,10,S20,F0,-20,-20,180,360,CW,183,S20 - Med_Res,Extremity,Yes,Yes,512,512
+EXTREMITY S20 LT CC HFS,Extremity small diameter acquisition CC,Clinical,100,10,10,S20,F0,180,180,-20,360,CC,183,S20 - Med_Res,Extremity,Yes,Yes,512,512
+EXTREMITY M20,"Large diameter extremity, patient specific due to offset iso",Clinical,120,10,10,M20,F0,-180,-180,180,360,CW,330,M20 - Med_Res,Extremity,Yes,Yes,512,512
+EXTREMITY M20 CC,"Large diameter extremity, patient specific due to offset iso",Clinical,120,10,10,M20,F0,180,180,-180,360,CC,330,M20 - Med_Res,Extremity,Yes,Yes,512,512
+HexaPOD - MIMI,HexaPOD Calibration using MIMI,Clinical,100,10,10,S20,F0,-180,-180,180,360,CW,330,S20 - HexaPOD - MIMI,Chest,Yes,Yes,1024,1024
+HexaPOD - MIMI CC,HexaPOD Calibration using MIMI,Clinical,100,10,10,S20,F0,180,180,-180,360,CC,330,S20 - HexaPOD - MIMI,Chest,Yes,Yes,1024,1024
+H&N M20,Head and Neck VolumeView with Bowtie filter F1,Clinical,120,16,40,M20,F1,-180,-180,180,360,CW,330,M20 - Med_Res,Head and Neck,Yes,Yes,512,512
+H&N M20 CC,Head and Neck VolumeView with Bowtie filter F1 CC,Clinical,120,16,40,M20,F1,180,180,-180,360,CC,330,M20 - Med_Res,Head and Neck,Yes,Yes,512,512
+H&N S10,Short Head VolumeView,Clinical,100,10,10,S10,F0,-20,-20,180,360,CW,183,S10 - Med_Res,Head and Neck,Yes,Yes,512,512
+H&N S10 CC,Short Head VolumeView Counter Clockwise,Clinical,100,10,10,S10,F0,20,20,-180,360,CC,183,S10 - Med_Res,Head and Neck,Yes,Yes,512,512
+H&N S20 LEFT,Head and Neck VolumeView LEFT,Clinical,100,10,10,S20,F0,-20,-20,180,360,CW,183,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+H&N S20 LEFT CC,Head and Neck VolumeView LEFT CC,Clinical,100,10,10,S20,F0,180,180,-20,360,CC,183,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+H&N S20 RIGHT,Head and Neck VolumeView RIGHT,Clinical,100,10,10,S20,F0,-180,-180,20,360,CW,183,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+H&N S20 RIGHT CC,Head and Neck VolumeView RIGHT CC,Clinical,100,10,10,S20,F0,20,20,-180,360,CC,183,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+IFI BRAIN SRT,Brain SRT VolumeView adapted for IFI,Clinical,100,10,10,S20,F0,-180,-180,20,,CW,200,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+IFI BRAIN SRT CC,Brain SRT VolumeView adapted for IFI,Clinical,100,10,10,S20,F0,180,180,-20,,CC,200,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+IFI CHEST SABR LT CC,CHEST SABR VolumeView adapted for IFI,Clinical,120,20,20,S20,F0,180,180,-20,,CC,183,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+IFI CHEST SABR RT,CHEST SABR VolumeView adapted for IFI,Clinical,120,20,20,S20,F0,-180,-180,20,,CW,183,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+IFI SPINE SABR,Brain SRT VolumeView adapted for IFI,Clinical,120,25,40,S20,F0,-180,-180,20,,CW,200,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+IFI SPINE SABR CC,Brain SRT VolumeView adapted for IFI,Clinical,120,25,40,S20,F0,180,180,-20,,CC,200,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+PAED S10 70kV,Paed Short Head and Neck VolumeView acquisition,Clinical,70,10,10,S10,F0,-180,-180,20,180,CW,366,S10 - Med_Res,Paed,Yes,Yes,512,512
+PAED S10 70kV CC,Paed Short Head and Neck VolumeView acquisition CC,Clinical,70,10,10,S10,F0,180,180,-20,180,CC,366,S10 - Med_Res,Paed,Yes,Yes,512,512
+PAED S20 70kV,Paed Short Head and Neck VolumeView acquisition,Clinical,70,10,10,S20,F0,-180,-180,20,180,CW,366,S20 - Med_Res,Paed,Yes,Yes,512,512
+PAED S20 70kV CC,Paed Short Head and Neck VolumeView acquisition CC,Clinical,70,10,10,S20,F0,180,180,-20,180,CC,366,S20 - Med_Res,Paed,Yes,Yes,512,512
+PAED S20 95kV,Paed Body VolumeView acquisition,Clinical,95,10,10,S20,F0,-180,-180,20,180,CW,366,S20 - Med_Res,Paed,Yes,Yes,512,512
+PAED S20 95kV CC,Paed Body VolumeView acquisition,Clinical,95,10,10,S20,F0,180,180,-20,180,CC,366,S20 - Med_Res,Paed,Yes,Yes,512,512
+PELVIS L20,Pelvis Large Diameter VolumeView with Bowtie filter F1,Clinical,120,64,40,L20,F1,-180,-180,180,360,CW,330,L20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS L20 CC,Pelvis Large Diameter VolumeView with Bowtie filter F1 CC,Clinical,120,64,40,L20,F1,180,180,-180,360,CC,330,L20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M15,Pelvis Medium Diameter with Bowtie filter F1,Clinical,120,50,40,M15,F1,-180,-180,180,360,CW,330,M15 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M15 CC,Pelvis Medium Diameter with Bowtie filter F1 Counter Clockwise,Clinical,120,50,40,M15,F1,180,180,-180,360,CC,330,M15 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M15 HIGH DOSE,Slow Pelvis Medium Diameter with Bowtie filter F1,Clinical,120,64,40,M15,F1,-180,-180,180,180,CW,660,M15 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M15 HIGH DOSE CC,Slow Pelvis Medium Diameter with Bowtie filter F1 CC,Clinical,120,64,40,M15,F1,180,180,-180,180,CC,660,M15 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M20,Long Pelvis Medium Diameter with Bowtie filter F1,Clinical,120,50,40,M20,F1,-180,-180,180,360,CW,330,M20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M20 CC,Long Pelvis Medium Diameter with Bowtie filter F1 CC,Clinical,120,50,40,M20,F1,180,180,-180,360,CC,330,M20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M20 HIGH DOSE,Slow Pelvis Medium Diameter with Bowtie filter F1,Clinical,120,64,40,M20,F1,-180,-180,180,180,CW,660,M20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS M20 HIGH DOSE CC,Slow Pelvis Medium Diameter with Bowtie filter F1,Clinical,120,64,40,M20,F1,180,180,-180,180,CC,660,M20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS S20 LEFT,Pelvis Small Diameter VolumeView acquisition,Clinical,120,25,40,S20,F0,-20,-20,180,360,CW,183,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS S20 LEFT CC,Pelvis Small Diameter VolumeView acquisition,Clinical,120,25,40,S20,F0,180,180,-20,360,CC,183,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS S20 RIGHT,Pelvis Small Diameter VolumeView acquisition,Clinical,120,25,40,S20,F0,-180,-180,20,360,CW,183,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+PELVIS S20 RIGHT CC,Pelvis Small Diameter VolumeView acquisition,Clinical,120,25,40,S20,F0,20,20,-180,360,CC,183,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+PENTAGUIDE,Pentaguide,Clinical,100,10,10,S20,F0,-180,-180,180,360,CW,330,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+PENTAGUIDE CC,Pentaguide,Clinical,100,10,10,S20,F0,180,180,-180,360,CC,330,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+PROSTATE SEED S10,Prostate VolumeView with Filter F0 for use with seeds and markers,Service,120,16,20,S10,F0,-135,-130,70,180,CW,366,S10 - Med_Res,Prostate,Yes,Yes,512,512
+SYMMETRY LEFT,4D Respiratory Correlated Lung acquisition,Clinical,120,20,16,S20,F0,-20,-20,180,65,CW,1020,S20 4D - Low_Res,Lung,Yes,Yes,512,512
+SYMMETRY LEFT CC,4D Respiratory Correlated Lung acquisition Counter Clockwise,Clinical,120,20,16,S20,F0,180,180,-20,65,CC,1020,S20 4D - Low_Res,Lung,Yes,Yes,512,512
+SYMMETRY RIGHT,4D Respiratory Correlated Lung acquisition Counter Clockwise,Clinical,120,20,16,S20,F0,-180,-180,20,65,CW,1020,S20 4D - Low_Res,Lung,Yes,Yes,512,512
+SYMMETRY RIGHT CC,4D Respiratory Correlated Lung acquisition Counter Clockwise,Clinical,120,20,16,S20,F0,20,20,-180,65,CC,1020,S20 4D - Low_Res,Lung,Yes,Yes,512,512
+AXP4014 CHEST M20,Chest Large Diameter with Bowtie filter F1,Clinical,120,20,20,M20,F1,-60,-60,180,360,CW,330,M20 - Med_Res,Chest,Yes,Yes,512,512
+SFOV Image Quality,Preset used to demonstrate Volume Image Quality,Service,120,40,40,S20,F0,180,180,-180,180,CC,660,Monthly IQ Recon,,Yes,No,1024,1024
+MFOV Image Quality,Preset used to demonstrate Volume Image Quality,Service,120,40,40,M20,F0,-180,-180,180,180,CW,660,Monthly IQ Recon,,Yes,No,1024,1024
+MFOV Image Quality F1,One-off test. Please delete.,Service,120,40,40,M20,F1,-180,-180,180,180,CW,660,Monthly IQ Recon,,Yes,No,1024,1024
+LFOV Image Quality,Preset used to demonstrate Volume Image Quality,Service,120,40,40,L20,F0,180,180,-180,180,CC,660,Monthly IQ Recon,,Yes,No,1024,1024
+LFOV Image Quality F1,One off - please delete,Service,120,40,40,L20,F1,180,180,-180,180,CC,660,Monthly IQ Recon,,Yes,No,1024,1024
+Image Registration CW,Preset used to demonstrate registration accuracy CW,Service,70,10,10,S20,F0,-180,-180,180,360,CW,330,BB Reconstruction,,Yes,Yes,1024,1024
+Image Registration CC,Preset used to demonstrate registration accuracy CC,Service,70,10,10,S20,F0,180,180,-180,360,CC,330,BB Reconstruction,,Yes,Yes,1024,1024
+"FlexMap - CW, small FOV",Service preset used to generate CW_sFOV.FlexMap,Service,70,10,10,S20,F0,-180,-180,180,360,CW,330,,,,,1024,1024
+"FlexMap - CW, medium FOV",Service preset used to generate CW_mFOV.FlexMap,Service,70,10,10,M20,F0,-180,-180,180,360,CW,330,,,,,1024,1024
+"FlexMap - CW, large FOV",Service preset used to generate CW_lFOV.FlexMap,Service,70,10,10,L20,F0,-180,-180,180,360,CW,330,,,,,1024,1024
+"FlexMap - CC, small FOV",Service preset used to generate CC_sFOV.FlexMap,Service,70,10,10,S20,F0,180,180,-180,360,CC,330,,,,,1024,1024
+"FlexMap - CC, medium FOV",Service preset used to generate CC_mFOV.FlexMap,Service,70,10,10,M20,F0,180,180,-180,360,CC,330,,,,,1024,1024
+"FlexMap - CC, large FOV",Service preset used to generate CC_lFOV.FlexMap,Service,70,10,10,L20,F0,180,180,-180,360,CC,330,,,,,1024,1024
+GeoCal,Service preset used for geometric 2 ring phantom acquisition,Service,120,10,25,S20,F0,-180,-180,180,180,CW,660,,,,,1024,1024
+CAT - Image Registration,Preset used to demonstrate registration accuracy,Service,70,10,10,S20,F0,-180,-180,180,360,CW,330,CAT Image Quality,,Yes,Yes,1024,1024
+CAT - Image Quality Contrast,CAT -S10  Image Quality Contrast,Service,120,20,20,S10,F0,-180,-180,180,180,CW,660,CAT Image Quality Contrast,,Yes,No,1024,1024
+CAT - Image Quality Uniformity,CAT - S10  Image Quality Uniformity,Service,120,20,20,S10,F0,-180,-180,180,180,CW,660,CAT Image Quality Uniformity,,Yes,No,1024,1024
+CAT - Image Quality Spatial,CAT - S10 Image Quality Spatial,Service,120,20,20,S10,F0,-180,-180,180,180,CW,660,CAT Image Quality Spatial,,Yes,No,1024,1024
+CAT - Image Quality Spatial CC,CAT - S10 Image Quality Spatial,Service,120,20,20,S10,F0,180,180,-180,180,CC,660,CAT Image Quality Spatial,,Yes,No,1024,1024
+CAT - Image Quality Geometric,Preset used to demonstrate Volume Image Quality,Service,120,20,20,S20,F0,-180,-180,180,180,CW,660,CAT Image Quality Geometric,,Yes,No,1024,1024
+HU Calib SFOV 100kV F0,"Hounsfield Unit Calibration Preset SFOV, 100kV F0",Service,100,32,25,S20,F0,-180,-180,180,180,CW,660,,,No,No,512,512
+HU Calib SFOV 120kV F0,"Hounsfield Unit Calibration Preset SFOV, 120kV F0",Service,120,25,20,S20,F0,-180,-180,180,180,CW,660,,,No,No,512,512
+HU Calib MFOV 120kV F1,"Hounsfield Unit Calibration Preset MFOV, 120kV F1",Service,120,40,40,M20,F1,-180,-180,180,180,CW,660,,,No,No,512,512
+HU Calib LFOV 120kV F1,"Hounsfield Unit Calibration Preset LFOV, 120kV F1",Service,120,64,40,L20,F1,-180,-180,180,180,CW,660,,,No,No,512,512
+SFOV Image Quality CW,Preset used to demonstrate Volume Image Quality,Service,120,40,40,S20,F0,-180,-180,180,180,CW,660,Monthly IQ Recon,,Yes,No,1024,1024
+MFOV Image Quality CC,Preset used to demonstrate Volume Image Quality,Service,120,40,40,M20,F0,180,180,-180,180,CC,660,Monthly IQ Recon,,Yes,No,1024,1024
+LFOV Image Quality CW,Preset used to demonstrate Volume Image Quality,Service,120,40,40,L20,F0,-180,-180,180,180,CW,660,Monthly IQ Recon,,Yes,No,1024,1024
+CTDI H&N S10,Short Head VolumeView,Service,100,10,10,CTDI-S,F0,-20,-20,180,360,CW,183,S10 - Med_Res,Head and Neck,Yes,Yes,512,512
+CTDI H&N S20 RIGHT,Head and Neck VolumeView RIGHT,Service,100,10,10,CTDI-S,F0,-180,-180,20,360,CW,183,S20 - Med_Res,Head and Neck,Yes,Yes,512,512
+CTDI H&N M20,Head and Neck VolumeView with Bowtie filter F1,Service,120,16,40,CTDI-M,F1,-180,-180,180,360,CW,330,M20 - Med_Res,Head and Neck,Yes,Yes,512,512
+CTDI H&N M20 CC,Head and Neck VolumeView with Bowtie filter F1 CC,Service,120,16,40,CTDI-M,F1,180,180,-180,360,CC,330,M20 - Med_Res,Head and Neck,Yes,Yes,512,512
+CTDI BREAST S20 LEFT,Breast left scan with reduced mAs to improve skin contour definition,Service,120,16,16,CTDI-S,F0,-20,-20,180,360,CW,183,S20 - Med_Res,Breast,Yes,Yes,512,512
+CTDI PELVIS S20 LEFT CC,Pelvis Small Diameter VolumeView acquisition,Service,120,25,40,CTDI-S,F0,180,180,-20,360,CC,183,S20 - Med_Res,Pelvis,Yes,Yes,512,512
+CTDI CHEST M20 CC,Chest Large Diameter with Bowtie filter F1 CC,Service,120,20,20,CTDI-M,F1,180,180,-180,360,CC,330,M20 - Med_Res,Chest,Yes,Yes,512,512
+CTDI PELVIS M15 HIGH DOSE,Slow Pelvis Medium Diameter with Bowtie filter F1,Service,120,64,40,CTDI-M,F1,-180,-180,180,180,CW,660,M15 - Med_Res,Pelvis,Yes,Yes,512,512
+CTDI PELVIS L20 CC,Pelvis Large Diameter VolumeView with Bowtie filter F1 CC,Service,120,64,40,CTDI-L,F1,180,180,-180,360,CC,330,L20 - Med_Res,Pelvis,Yes,Yes,512,512
+CTDI PELVIS L20,Pelvis Large Diameter VolumeView with Bowtie filter F1,Service,120,64,40,CTDI-L,F1,-180,-180,180,360,CW,330,L20 - Med_Res,Pelvis,Yes,Yes,512,512
