@@ -8,8 +8,9 @@ output_file_path = "C:\\Users\\david.jolly\\dev\\ini_to_csv\\result.csv"
 config = configparser.ConfigParser()
 config.read(input_file_path)
 
+# Specify Keys to be excluded
 exclude_keys = {'Checksum', 'LastModified', 'TableIsocentric', 'TableColumnRotation', 
-                'NominalScanDose-2-44', 'NominalScanDose-A1-2-44', 'Phantom', 'TriggerInterval', 'Version'}  # Keys to be excluded
+                'NominalScanDose-2-44', 'NominalScanDose-A1-2-44', 'Phantom', 'TriggerInterval', 'Version'}  
 
 # Convert exclude_keys to lowercase
 exclude_keys_lower = {key.lower() for key in exclude_keys}
